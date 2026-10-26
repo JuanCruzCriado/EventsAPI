@@ -31,3 +31,42 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local configuration and credentials ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+application-*.local.properties
+application-*.local.yml
+application-*.local.yaml
+application-*.secrets.properties
+application-*.secrets.yml
+application-*.secrets.yaml
+secrets.yml
+secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+### Logs, local databases, and database exports ###
+*.log
+/logs/
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+/data/
+
+### OS files ###
+.DS_Store
+Thumbs.db
